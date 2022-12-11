@@ -8,7 +8,9 @@
 * Jira, Atlassian
 * HTML
 #### Languages:
-* English C1+
+* English -C1+
+* Russian - native
+* Polish -B2
 
 #### Education:
 * RS School JS / Front-End Pre-School 2022Q4
