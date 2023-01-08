@@ -16,7 +16,6 @@ html {
 
 .nav {
   display: flex;
-  position: fixed;
   background-color: #EDF2EC;
   justify-content: flex-end;
   padding: 42px, 109px, 42px, 111px;
