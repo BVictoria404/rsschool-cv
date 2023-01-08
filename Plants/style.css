@@ -1,0 +1,726 @@
+html {
+  scroll-behavior: smooth; 
+}
+
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  min-width: 1440px;
+
+}
+
+
+.nav {
+  display: flex;
+  position: fixed;
+  background-color: #EDF2EC;
+  justify-content: flex-end;
+  padding: 42px, 109px, 42px, 111px;
+  align-items: center;
+  
+  list-style: none;
+  width: 100%;
+}
+
+.plantslogo{
+/* Plants */
+margin-right: auto;
+margin-left: 109px;
+
+width: 58.13px;
+height: 17px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+
+  .nav_menu{
+   /* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 46px;
+margin-right: 109px;
+
+width: 452px;
+height: 50px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+
+.homenav {
+    list-style: none;
+    cursor: pointer;
+
+  list-style: none;  
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 50px;
+  /* identical to box height, or 312% */
+  
+  color: #E06733;
+  }
+  
+  .nav2 {
+  list-style: none;
+  cursor: pointer;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 50px;
+  /* identical to box height, or 312% */
+  
+  color: #010201;
+  }
+  
+            /* main*/
+
+  .welcome{
+    display: flex;
+    justify-content: flex-end;
+
+    padding-right: 109px;
+    padding-top: 62px;
+    padding-bottom: 64px;
+    background-color: #EDF2EC;
+
+    min-height: 535px;
+    }
+
+    .leaf_container{
+      width: 448.8px;
+      height: 407.36px;
+      margin-left: 109px;
+
+    }
+
+
+.leaf1{
+  /* leaf 1 */
+margin-top: 62px;
+
+  align-items: flex-start;
+  margin-top: 62px;
+  margin-bottom: 62.64px;
+  margin-right: 882.2px;
+  margin-left: 109px;
+
+  width: 448.8px;
+  height: 407.36px;
+  
+}
+
+
+
+.sectionw-h1{
+align-self: flex-end;
+margin-top: 98px;
+margin-left: 224px;
+width: 549px;
+height: 101px;
+
+/* We grow plants and give you oxygen */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 50px;
+/* or 111% */
+
+color: #717171;
+}            
+            
+  .sectionw-h2{
+    align-self: flex-end;
+    margin-left: 224px;
+    margin-top: 42px;
+    width: 525.44px;
+height: 105px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    /* identical to box height, or 312% */
+    
+    color: #636060; 
+  }       
+
+  .buttonwelcome {
+    align-self: flex-end;
+    cursor: pointer;
+    margin-left: 224px;
+    background-color: #EDF2EC;
+    margin-top: 48px;
+    
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 27px;
+    padding-left: 27px;
+
+/* LEARN MORE */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+/* identical to box height, or 125% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+  }
+
+.buttonwelcome:hover{
+  color: #EDF2EC;
+  background-color: #E06733;
+}
+
+      /* ABOUT SECTION*/
+
+
+.about{
+display: flex;
+justify-content: space-between;
+min-height:  600px;
+
+background: #FFFFFF;
+}
+
+.h2about{
+align-self: flex-start;
+margin-left: 109px;
+margin-top: 161px;
+margin-right: 153px;
+
+/* We grow plants and give you oxygen */
+
+width: 463px;
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+
+color: #499A18;
+}            
+            
+  .h2about2{
+    align-self: flex-start;
+    margin-left: 109px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    width: 605px;
+    height: 208px;
+
+    color: #636060;
+  }       
+
+
+  .aboutimg{
+    /* leaf 1 */
+
+    align-self: flex-start;
+
+    margin-right: 109px;
+    margin-bottom: 94px;
+    margin-top: 93px;
+   
+
+
+   width: 464px;
+   height: 479px;  
+   
+  }
+
+
+  .service{
+    align-items: center;
+    padding-left: 109px;
+    padding-bottom: 121px;
+    background: #EDF2EC;
+
+    min-height: 1300px;
+}
+
+ .servicebox{
+display: inline-block;
+flex-direction: space-between;
+align-items: center;
+width: 1007px;
+
+ }
+
+  .service_title{
+align-items: flex-start;
+margin-top: 42px;
+width: 306px;
+height: 94px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+
+color: #499A18;
+}
+
+
+.servicesbuttonbox{
+  display: flex;
+  justify-content:baseline;
+  margin-right: 0 auto;
+  background: #EDF2EC;
+  list-style: none;
+  
+}
+
+
+.servicesbuttons{
+  display: flex;
+  cursor: pointer;
+  justify-content: flex-end;
+  margin-left: 38px;
+  background-color: #EDF2EC;
+  margin-top: 19px;
+  list-style: none;
+
+  border: 1px solid #E06733;
+  border-radius: 5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 40px;
+  padding-left: 40px;
+
+  /* Planting */
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #E06733;
+}
+
+
+.servicesbuttons:hover{
+color: #EDF2EC;
+background-color: #E06733;
+}
+
+.img_container{
+  display: flex;
+  justify-items: space-evenly;
+  
+  width: auto;
+  height: auto;
+  flex-wrap: wrap;
+  padding: 0, 4px;
+
+  margin-bottom: 55px;
+
+  flex:1;
+}
+
+.imgbox{
+  border: 1px solid #E3E1D5;
+  border-radius: 20px 20px 20px 20px;
+  width: 329px; 
+  height: 450px;
+
+  margin-top: 55px;
+  margin-bottom: 55px;
+  margin-right: 116px;
+}
+
+
+.serv_img{
+  border-radius: 20px 20px 0px 0px;
+
+  width: 329px;
+  height: 350px;
+}
+
+.title1{
+  text-align: center;
+  list-style: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+
+  width: 120px;
+height: 24px;
+  /* or 100% */
+  
+  color: #E06733;
+}
+
+.main2{
+  list-style: none;
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  width: 267.19px;
+height: 20px;
+  /* identical to box height, or 125% */
+  
+  color: #717171;
+  margin-bottom: 36px;
+  margin-top: 10px;
+}
+
+        /*  PRICE SECTION  */
+.prices{
+  display: flex;
+  min-height: 560px;
+  
+
+  padding-left: 109px;
+  padding-top: 40px;
+  padding-bottom: 115px;
+
+  background: #FFFFFF;
+}
+
+
+.pricestext{
+  margin-bottom: 60px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
+
+.btncontainer_price{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: #FFFFFF;
+
+  width: 332px;
+  height: 282.01px;
+
+  gap: 32px;
+
+  border: 1px solid #E3E1D5;
+  border-radius: 20px;
+  list-style: none;
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.pricebtn{
+align-self: flex-start;
+cursor: pointer;
+width: 250px;
+height: 50px;
+left: 150px;
+top: 183.01px;
+
+background: #EDF2EC;
+border-radius: 20px;
+list-style: none;
+
+ padding-top: 16px;
+ padding-bottom: 16px;
+ padding-right: 40px;
+ padding-left: 40px; 
+
+/* text */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+/* or 100% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: black;
+}
+
+.dot{
+ justify-self: flex-end;
+
+width: 16px;
+height: 16px;
+
+}
+
+.contactwrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  width: 452px;
+
+ margin-left: auto;
+  margin-top: 40px;
+  margin-right: 109px;
+}
+
+.contacttext{
+  /* Our best gardeners are ready to help you */
+  justify-content: flex-end;
+  width: 452px;
+  height: 103px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+/* or 125% */
+text-align: right;
+
+color: #000000;
+}
+
+
+  .contactbtn {
+
+    margin-left: 109px;
+    background-color: #ffffff;
+    margin-top: 35px;
+    cursor: pointer;
+
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 27px;
+    padding-left: 27px;
+
+    width: 162px;
+    height: 50px;
+
+/* LEARN MORE */
+
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+
+/* identical to box height, or 125% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #E06733;
+  }
+
+.contactbtn:hover{
+  color: #ffffff;
+  background-color: #E06733;
+}
+
+
+.imageleafs{
+ /* leafs */
+ align-self: auto;
+ margin-top: 39px;
+ margin-bottom: 115px;
+ margin-left: 608px;
+
+ width: 152px;
+ height: 174.99px; 
+}
+
+
+.contact{
+  display: flex;
+  justify-content: space-around;
+
+  min-height: 550px;
+
+  padding-left: 109px;
+  padding-right: 109px;
+  padding-top: 60px;
+  background: #EDF2EC;
+}
+
+.imgplantlady{
+ /* plant lady image */
+ justify-items: flex-start;
+
+ margin-top: 53px;
+ margin-bottom: 0.01px;
+ margin-right: 113px;
+ 
+ width: 400px;
+height: 496.99px;
+}
+
+.h2_contact{
+justify-items: center;
+margin-right: 64px;
+margin-top: 62px;
+width: 195px;
+/* We grow plants and give you oxygen */
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+
+color: #499A18;
+}     
+
+.dropdownbtn{
+justify-items: flex-end;
+cursor: pointer;
+
+margin-top: 148px;
+flex: 1;
+order:0;
+
+width: 450px;
+height: 50px;
+
+background: #D6E7D2;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 0px;
+
+padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 226px;
+padding-left: 20px; 
+
+/* city drop down button */
+text-align: left;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+
+/* identical to box height, or 200% */
+letter-spacing: 0.05em;
+
+color: #717171;
+}
+
+.dot2{
+  align-self: flex-end;
+  
+  width: 16px;
+  height: 16px;
+  }
+
+
+
+.container_footer{
+  display: flex;
+  justify-content: space-between;
+
+  background: #FFFFFF;
+
+  padding-left: 109px;
+  padding-top: 40px;
+  padding-right: 109px;
+  padding-bottom: 40px;
+
+}
+
+.footer_text{
+  justify-content: flex-start;
+  text-decoration:none;
+  margin-left: 0;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  
+  /* identical to box height, or 250% */
+  
+  color: #000000;
+}
+.footer_text2{
+  justify-content: center;
+  text-decoration:none;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  
+  /* identical to box height, or 250% */
+  
+  color: #000000;
+}
+
+.smimg_box{
+  display: flex;
+  
+  gap: 32px;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 188px;
+  height: 50px;  
+}
+
+.smlogo{
+justify-content: space-between;
+cursor: pointer;
+align-items: flex-end;
+height: 35px;
+width: 35px;
+}
